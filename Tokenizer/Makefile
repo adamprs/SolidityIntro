@@ -1,0 +1,1 @@
+install :; cd foundry && mv src script test .. && cd .. && rm -rf foundry && mkdir foundry && git add . && git commit -m "conflit" && cd foundry && forge init && rm -rf src script test && cd .. && mv test script src foundry && git add . && git commit -m "conflit" && cd foundry && forge install github.com/smartcontractkit/chainlink-brownie-contracts && cd .. 
